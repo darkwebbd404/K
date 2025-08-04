@@ -129,7 +129,7 @@ def help_handler(message):
         "/like region uid - Send likes to Free Fire profile\n"
         "/remain - Check how many times you can still use today\n"
         "/help - Show this help message\n\n"
-        "Example: /like bd 388235783"
+        "Example: /like bd 10496845584"
     ))
 
 bot.polling()
