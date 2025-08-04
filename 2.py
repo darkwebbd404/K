@@ -6,8 +6,8 @@ import threading
 
 # Configuration
 BOT_TOKEN = "7747847120:AAGYuaPr_9lzNa1dUw10SraTVp0OzF8k7Kg"
-API_KEY = "m4@1234"
-API_URL = "https://likes.api.freefireofficial.com/api/{region}/{uid}?key=" + API_KEY
+API_KEY = "GREAT"
+API_URL = "https://likexthug.vercel.app/like?uid={uid}&region={region}&key=" + API_KEY
 
 SUPPORTED_REGIONS = {
     "ind", "sg", "eu", "me", "id", "bd", "ru", "vn",
