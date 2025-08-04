@@ -63,7 +63,7 @@ def like_handler(message):
     try:
         args = message.text.split()
         if len(args) != 3:
-            bot.reply_to(message, "❌ Format: /like region uid\nExample: /like bd 388235783")
+            bot.reply_to(message, "❌ Format: /like region uid\nExample: /like bd 10496845584")
             return
 
         region, uid = args[1].lower(), args[2]
@@ -93,7 +93,7 @@ def like_handler(message):
                 "🔗 <b>Join our Telegram</b>:\nhttps://t.me/freefireproxyserver"
             ))
         else:
-            bot.reply_to(message, f"❌ {data.get('message', 'API Error')}")
+            bot.reply_to(message, f"❌ {data.get('message', 'MAX LIKE TODAY ✅')}")
     except Exception as e:
         bot.reply_to(message, f"❌ Error: {str(e)}")
 
